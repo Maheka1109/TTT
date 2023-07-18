@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,200;1,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="ttt.css">
+<script src="ttt.js" defer></script>
+<script src="ttt1.js" defer></script>
+</head>
+<body>
+    <header id="header">
+        <h1>Play Tic, Tac, Toe</h1>
+        <p>Built with HTML ,CSS, Javascript and ofc lots of loveXD </p>
+    </header>
+    <div id="main">
+        
+        
+        
+        <section id="game">
+           <ol>
+            <li>
+                <article>
+                    <h5>Player 1</h5>
+                    <h3 id="g">Player Name</h3>
+                    <p class="y"><strong>X</strong></p>
+                    <button class="btn" onclick="myButton()">Edit</button>
+                </article>
+            </li>
+            &nbsp;&nbsp;&nbsp;
+            <li>
+                <article>
+                    <h5>Player 2</h5>
+                    <h3 id="k">Player Name</h3>
+                    <p class="y"><strong>O</strong></p>
+                    <button class="btn" onclick="myButton1()">Edit</button>
+
+                </article>
+            </li>
+           </ol>
+           <button class="btn btn-f" onclick="func_2()">Start New Game</button>
+        </section>
+      
+        <section id="active-game">
+            <p id="print"></p>
+            <article>
+                
+                
+                
+                <p id="b"><br><br>Click "Start new Game" above to start a new game! </p>
+            </article>
+               <ol>
+                <input type="text" id="b1" onclick="func_3();myfunc();" readonly >
+                <input type="text" id="b2" onclick="func_4();myfunc();" readonly>
+                <input type="text" id="b3" onclick="func_5();myfunc();" readonly>
+                <br>
+                <input type="text" id="b4" onclick="func_6();myfunc();" readonly>
+                <input type="text" id="b5" onclick="func_7();myfunc();" readonly>
+                <input type="text" id="b6" onclick="func_8();myfunc();" readonly>
+                <br>
+                <input type="text" id="b7" onclick="func_9();myfunc();" readonly>
+                <input type="text" id="b8" onclick="func_10();myfunc();" readonly>
+                <input type="text" id="b9" onclick="func_11();myfunc();" readonly>
+                
+               </ol>
+        </section>
+        
+    </div>
+    </main>
+</body>
+</html>

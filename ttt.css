@@ -1,0 +1,93 @@
+body{
+    margin:0;
+    font-family: 'Open-Sans',sans-serif;
+    color:rgb(44,41,44);
+    background-color: rgb(236, 227, 243);
+}
+#header{
+    background-color: blueviolet;
+    color:aliceblue;
+    padding:2rem ;
+    text-align: center;
+}
+.btn {
+    font:inherit;
+    padding:0.5rem 1.5rem;
+    background-color: blueviolet;
+    border:1px solid rgb(156, 84, 224);
+    color:aliceblue;
+   border-radius: 4px;
+   cursor:pointer;
+}
+
+.btn:hover{
+    background-color: rgb(159, 91, 222);
+}
+
+
+.btn-f{
+    margin:-26px -105px 30px auto;
+}
+#active-game ol{
+    text-align: center;
+    margin:60px;
+    padding:0px;
+}
+
+#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9{
+    background-color: rgb(191, 134, 244);
+    margin: 2px;
+    padding: 36px;
+    width: 2%;
+    list-style: none;
+    display: inline-block;
+    border-radius: 2px;
+    border-color: aliceblue;
+    cursor: pointer;
+    color:aliceblue;
+    font-size: 30px;
+    /* caret-color: rgb(191, 134, 244); */
+}
+.y{
+    font-size: 25px;
+    color:blueviolet;
+}
+
+
+#game{
+    margin: -29px 123px 40px auto;
+    text-align: center;
+}
+#game ol li{
+    display:inline-block;
+    list-style:none;
+    
+}
+
+#game article{
+    background-color: rgb(230, 218, 241);
+    margin:42px;
+    padding:8px;
+    width:89%;
+    text-align: center;
+    border-radius:2px ;
+    box-shadow: 1px 1px 0px 1px rgba(174, 174, 174, 0.533);
+    box-sizing: 5px 10px;
+}
+
+#active-game p{
+    margin:-18px;
+    text-align: center;
+}
+
+#active-game{
+    text-align: center;
+    margin:38px;
+    /* opacity:0.3; */
+} 
+#print {
+        color:rgb(15, 15, 15);
+        font-size: 20px;
+        margin:auto;
+        text-align: center;
+    }
